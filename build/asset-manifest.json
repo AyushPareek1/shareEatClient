@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89ca1089.css",
+    "main.js": "/static/js/main.1f5fdfe9.js",
+    "static/media/poorchild.jpg": "/static/media/poorchild.98814b039d5f4a6f5e30.jpg",
+    "index.html": "/index.html",
+    "main.89ca1089.css.map": "/static/css/main.89ca1089.css.map",
+    "main.1f5fdfe9.js.map": "/static/js/main.1f5fdfe9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89ca1089.css",
+    "static/js/main.1f5fdfe9.js"
+  ]
+}
