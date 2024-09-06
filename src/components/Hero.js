@@ -4,6 +4,7 @@ import JoinUs from './Joinus';
 
 
 const Banner = () => {
+
     return (
 
         <div class="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">

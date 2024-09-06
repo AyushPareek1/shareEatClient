@@ -11,9 +11,12 @@ const SignIn = () => {
     const navigate = useNavigate();
     const [password, setPassword] = useState('');
     const handleSubmit = async (event) => {
+        
+        
         event.preventDefault();
         try {
             const response = await axios.post(`${SIGNIN}`, { email, password });
+            // setEmail('tanish');
             localStorage.setItem('token', response.data.token);
             Swal.fire(
                 'Success!',
@@ -46,15 +49,18 @@ const SignIn = () => {
 
                     <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
 
-                        <div>
+                       <div>
                             <label htmlFor="email" className="block text-sm font-medium leading-6 text-custom-color">Email address</label>
                             <div className="mt-2">
                                 <input id="email" name="email" type="email" autoComplete="email" required
                                     value={email}
-                                    onChange={e => setEmail(e.target.value)}
+                                    onChange={e => {
+                                        console.log(e)
+                                        setEmail(e.target.value)
+                                    }}
                                     className="grow border w-full rounded border-[#ca403b] py-2 px-3 text-sm sm:text-base  text-custom-color focus:outline-[#EF4D48] placeholder:font-Poppins placeholder:text-sm mt-2 mb-2" />
                             </div>
-                        </div>
+                       </div>
 
                         <div>
                             <div className="flex items-center justify-between">

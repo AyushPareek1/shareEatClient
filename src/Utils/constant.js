@@ -1,4 +1,4 @@
-export const BASE_URL = "https://shareeat-backend.onrender.com";
+export const BASE_URL = "http://localhost:3000";
 
 export const SIGNIN = BASE_URL + "/signin";
 export const SIGNUP = BASE_URL + "/signup";

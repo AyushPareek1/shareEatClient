@@ -8,7 +8,7 @@ import DonorRegistration from './pages/DonorRegistration';
 import NgoRegistrationPage from './pages/NgoRegistration';
 import DonorListingPage from './pages/DonorListingPage';
 import Dash from './pages/Dash';
-<Dash />
+{/* <Dash /> */}
 
 function App() {
   return (
